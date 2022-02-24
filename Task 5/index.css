@@ -1,0 +1,17 @@
+
+
+.Question{
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 50px 20px;
+
+}
+
+h2, p{
+  text-align: center;
+}
+
+.right{
+  position: relative;
+  left: 700px;
+}

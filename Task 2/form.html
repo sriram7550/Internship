@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Register Form</title>
+</head>
+<style>
+    body{
+    font-family: Calibrl, Helvetica, sans-serif;
+    background-color:rgb(241, 171, 105);
+}
+.container{
+    padding: 15px;
+    background-color: rbg(230,226,173);
+}
+input[type=text], input[type=password], textarea{
+    width:100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus{
+    background-color:rgb(247, 117, 30) ;
+    outline: none;
+}
+div{
+    padding: 10px 0;
+}
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.registerbtn{
+    background-color:#4caf50 ;
+    color: white;
+    padding: 16px 20px;
+    margin:8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.registerbtn:hover{
+    opacity: 1;
+}
+</style>
+</body>
+</html> 
+<form>
+   <div class="container">
+       <center><h1> Student Registration Form</h1></center>
+       <hr>
+       <label> Firstname </label>
+       <input type="text" name="Firstname" placeholder="Firstname" size="15" required />
+       <label> Middlename </label>
+       <input type="text" name="Middlename" placeholder="Middlename" size="15" required />
+       <label> Lastname </label>
+       <input type="text" name="Lastname" placeholder="Lastname" size="15" required />
+       <div>
+        <label>
+        Domain:
+        </label>    
+
+        <select>
+        <option value="Select any one">Select any one</option>  
+        <option value="Python">Python</option> 
+        <option value="Web Development">Web Development</option> 
+        <option value="A.I">A.I</option> 
+        <option value="Machine Learning">Machine Learning</option> 
+        <option value="Software Development">Software Development</option> 
+        </select>
+        </div>
+        <div>
+        <label>
+        Gender:
+        </label><hr>
+        <input type="radio" value="Male" name="gender" checked > Male
+        <input type="radio" value="Female" name="gender"  > Female
+        <input type="radio" value="Other" name="gender" > Other
+        </div>
+        <label>
+        phone:
+        </label>
+        <input type="text" name="Country code" placeholder="Country code" value="+91" size="2" />
+        <input type="text" name="phone" placeholder="phone no." size="10" required />
+        <label>
+         Current Adress :
+        </label>
+        <textarea cols="80" rows="5" placeholder="Current Adresss" value="adress" required >
+        </textarea>
+        <label>
+        Education
+        </label>
+        <input type="text" placeholder="Enter Education CGPA" size="4" />
+        <input type="text" placeholder="Enter 12th Percentage" size="4" />
+        <input type="text" placeholder="Enter 10th Percentage" size="4" />
+        <label for="resume"><b>Resume</b></label>
+        <p>Click on the "Choose File" button to upload a file:</p>   
+        
+        <form action="/action_php">
+          <input type="file" id="myfile" name="filename">
+          <input type="submit">
+        </form><br>
+        <label for="email"><b>Email</b></label>
+        <input type="text" name="Email" placeholder="Enter Email" required />
+        
+        <label for="psw"><b>password</b></label>
+        <input type="password" name="psw" placeholder="Enter Password" required />
+        <label for="psw-repeat"><b>Re-type password</b></label>
+        <input type="password" name="psw-repeat" placeholder="Retype Password" required>
+        <button type="submit" class="registration">Register</button>
+       
+    </form>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

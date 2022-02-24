@@ -1,0 +1,28 @@
+.Question{
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 50px 20px;
+
+}
+
+
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#secondmain {
+  display: flex;
+  justify-content: space-between;
+}
+
+#thirdmain {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+h2{
+  text-align: center;
+}

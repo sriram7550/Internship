@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald";
+  height: 100%;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #464646;
+}
+
+.img1 {
+  min-height: 100vh;
+  min-width: 100%;
+  background: url("../img/img1.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img1 .border,
+.img2 .border,
+.img3 .border {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  background: #000000;
+  padding: 0.5rem 1.5rem;
+  color: #ffffff;
+  border: 2px solid #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.img1 .border:hover,
+.img2 .border:hover,
+.img3 .border:hover {
+  border: 3px solid #fff;
+}
+
+.img2 {
+  min-height: 400px;
+  background: url("../img/img2.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img3 {
+  min-height: 400px;
+  background: url("../img/img3.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  padding: 4% 12%;
+  border-radius: 30;
+  text-align: center;
+}
+
+.section-dark {
+  background: #000000;
+  color: #ffffff;
+}
+
+.section-light {
+  background: #ffffff;
+  color: #000000;
+}
+
+.border.trans {
+  background: transparent;
+}
